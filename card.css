@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+input {
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    margin: 0px 20px;
+}
+
+#claro {
+    background-color: #000;
+    color: #FFF;
+    transition: 300ms;
+}
+
+#claro:hover {
+    background-color: #FFF;
+    color: #000;
+    transition: 300ms;
+}
+
+#escuro {
+    background-color: #000;
+    color: #FFF;
+    transition: 300ms;
+}
+
+#escuro:hover {
+    background-color: #808080;
+    color: #10111E;
+    transition: 300ms;
+}
+
+#jiggly {
+    background-color: #000;
+    color: #FFF;
+    transition: 300ms;
+}
+
+#jiggly:hover {
+    background-color: #FFB6C1;
+    color: #000;
+    transition: 300ms;
+}
+
+/* card */
+
+body {
+    max-height: 90vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#card {
+    width: 30rem;
+    height: 85vh;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 31px -6px rgba(0,0,0,0.86);
+}
+
+/* perfil */
+
+#imagem_perfil {
+    margin: 10% 0 0 0;
+    padding: 5px;
+    border-radius: 100%;
+    border: 5px solid #000;
+}
+
+.perfil p {
+    padding: 10px;
+    font-size: 190%;
+    font-weight: bold;
+}
+
+/* dados */
+
+.dados {
+    text-align: left;
+    margin: 20px 50px;
+}
+
+.dados p {
+    padding: 5px;
+    font-size: 120%;
+    font-weight: bold;
+} 
+
+.primeiro {
+    margin-right: 10px;
+}
+
+.terceiro {
+    margin-right: 4px;
+} 
+
+/* linguagens */
+
+.linguagens {
+    margin: 30px 10px;
+}
+
+/* botões */
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botoes p {
+    width: 100px;
+    margin: 20px 10px;
+    height: 20px;
+    padding: 10px;
+    background-color: #000;
+}
+
+.botoes a {
+    outline: none;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.botoes a:hover {
+    outline: none;
+    text-decoration: none;
+}
