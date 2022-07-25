@@ -19,7 +19,7 @@ let par7 = paragrafo.item(6)
 botaoClaro.addEventListener('click', function() {
 
     // corpo da pagina
-    document.body.style.backgroundColor = '#FFF'
+    document.body.style.backgroundColor = '#F5F5F5'
     document.body.style.backgroundImage = 'none'
     document.body.style.transition = '300ms'
 
@@ -34,7 +34,7 @@ botaoClaro.addEventListener('click', function() {
     par6.style.color = '#FFF'
     par7.style.color = '#FFF'
 
-    card.style.backgroundColor = '#FFF'
+    card.style.backgroundColor = 'transparent'
     card.style.boxShadow = '0px 0px 31px -6px rgba(0,0,0,0.86)'
 })
 
@@ -69,6 +69,8 @@ botaoJiggly.addEventListener('click', function() {
     // corpo da pagina
     document.body.style.backgroundImage = 'url(imagens/Mwlk.gif)'
     document.body.style.backgroundSize = 'cover'
+    document.body.style.backgroundRepeat = 'no-repeat'
+    document.body.style.backgroundColor = '#FFB6C1'
     document.body.style.transition = '300ms'
 
     profileImage.src = 'imagens/profile.gif'
@@ -86,4 +88,3 @@ botaoJiggly.addEventListener('click', function() {
     card.style.boxShadow = 'none'
 
 })
-
