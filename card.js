@@ -30,9 +30,6 @@ botaoClaro.addEventListener('click', function() {
     par2.style.color = '#000'
     par3.style.color = '#000'
     par4.style.color = '#000'
-    par5.style.color = '#FFF'
-    par6.style.color = '#FFF'
-    par7.style.color = '#FFF'
 
     card.style.backgroundColor = 'transparent'
     card.style.boxShadow = '0px 0px 31px -6px rgba(0,0,0,0.86)'
@@ -54,9 +51,6 @@ botaoEscuro.addEventListener('click', function() {
     par2.style.color = '#000'
     par3.style.color = '#000'
     par4.style.color = '#000'
-    par5.style.color = '#FFF'
-    par6.style.color = '#FFF'
-    par7.style.color = '#FFF'
 
     card.style.backgroundColor = '#808080'
     card.style.boxShadow = '0px 0px 30px -3px rgba(236, 236, 236, 0.23)'
@@ -80,9 +74,6 @@ botaoJiggly.addEventListener('click', function() {
     par2.style.color = '#000'
     par3.style.color = '#000'
     par4.style.color = '#000'
-    par5.style.color = '#FFF'
-    par6.style.color = '#FFF'
-    par7.style.color = '#FFF'
 
     card.style.backgroundColor = 'transparent'
     card.style.boxShadow = 'none'
