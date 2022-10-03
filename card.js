@@ -2,7 +2,6 @@
 
 const botaoClaro = document.getElementById('claro')
 const botaoEscuro = document.getElementById('escuro')
-const botaoJiggly = document.getElementById('jiggly')
 const card = document.getElementById('card')
 const profileImage = document.getElementById('imagem_perfil')
 let paragrafo = document.querySelectorAll("p")
@@ -23,7 +22,7 @@ botaoClaro.addEventListener('click', function() {
     document.body.style.backgroundImage = 'none'
     document.body.style.transition = '300ms'
 
-    profileImage.src = 'imagens/gwen1.png'
+    profileImage.src = 'imagens/jack.png'
     profileImage.style.transition = '300ms'
 
     par1.style.color = '#000'
@@ -44,7 +43,7 @@ botaoEscuro.addEventListener('click', function() {
     document.body.style.backgroundImage = 'none'
     document.body.style.transition = '300ms'
 
-    profileImage.src = 'imagens/gwen1.png'
+    profileImage.src = 'imagens/jack.png'
     profileImage.style.transition = '300ms'
 
     par1.style.color = '#000'
@@ -56,9 +55,9 @@ botaoEscuro.addEventListener('click', function() {
     card.style.boxShadow = '0px 0px 30px -3px rgba(236, 236, 236, 0.23)'
 })
 
-// tema jigglypuff
+// tema jigglypuff * removido *
 
-botaoJiggly.addEventListener('click', function() {
+/* botaoJiggly.addEventListener('click', function() {
 
     // corpo da pagina
     document.body.style.backgroundImage = 'url(imagens/Mwlk.gif)'
@@ -78,4 +77,4 @@ botaoJiggly.addEventListener('click', function() {
     card.style.backgroundColor = 'transparent'
     card.style.boxShadow = 'none'
 
-})
+}) */
