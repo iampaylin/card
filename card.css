@@ -27,6 +27,8 @@ input {
     border-radius: 4rem;
 }
 
+/* White */
+
 #claro {
     background-color: #000;
     color: #FFF;
@@ -39,6 +41,8 @@ input {
     transition: 300ms;
 }
 
+/* Dark */
+
 #escuro {
     background-color: #000;
     color: #FFF;
@@ -48,6 +52,34 @@ input {
 #escuro:hover {
     background-color: #808080;
     color: #10111E;
+    transition: 300ms;
+}
+
+/* Halloween */
+
+#halloween {
+    background-color: #000;
+    color: #FFF;
+    transition: 300ms;
+}
+
+#halloween:hover {
+    background-color: #252525;
+    color: #FF0000;
+    transition: 300ms;
+}
+
+/* Taylor Swift */
+
+#TS {
+    background-color: #000;
+    color: #FFF;
+    transition: 300ms;
+}
+
+#TS:hover {
+    background-color: #010A26;
+    color: #D9806C;
     transition: 300ms;
 }
 
@@ -232,6 +264,10 @@ main {
 }
 
 @media screen and (max-width: 293px) {
+
+    input {
+        font-size: 0.6rem;
+    }
 
     #card {
         max-width: 80vw;

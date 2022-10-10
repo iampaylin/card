@@ -2,6 +2,8 @@
 
 const botaoClaro = document.getElementById('claro')
 const botaoEscuro = document.getElementById('escuro')
+const botaoHalloween = document.getElementById('halloween')
+const botaoTS = document.getElementById('TS')
 const card = document.getElementById('card')
 const profileImage = document.getElementById('imagem_perfil')
 let paragrafo = document.querySelectorAll("p")
@@ -15,14 +17,14 @@ let par7 = paragrafo.item(6)
 
 // tema claro
 
-botaoClaro.addEventListener('click', function() {
+botaoClaro.addEventListener('click', () => {
 
     // corpo da pagina
     document.body.style.backgroundColor = '#F5F5F5'
     document.body.style.backgroundImage = 'none'
     document.body.style.transition = '300ms'
 
-    profileImage.src = 'imagens/jack.png'
+    profileImage.src = 'imagens/main.gif'
     profileImage.style.transition = '300ms'
 
     par1.style.color = '#000'
@@ -36,10 +38,31 @@ botaoClaro.addEventListener('click', function() {
 
 // tema escuro 
 
-botaoEscuro.addEventListener('click', function() {
+botaoEscuro.addEventListener('click', () => {
 
     // corpo da pagina
     document.body.style.backgroundColor = '#10111E'
+    document.body.style.backgroundImage = 'none'
+    document.body.style.transition = '300ms'
+
+    profileImage.src = 'imagens/main.gif'
+    profileImage.style.transition = '300ms'
+
+    par1.style.color = '#000'
+    par2.style.color = '#000'
+    par3.style.color = '#000'
+    par4.style.color = '#000'
+
+    card.style.backgroundColor = '#808080'
+    card.style.boxShadow = '0px 0px 30px -3px rgba(236, 236, 236, 0.23)'
+})
+
+// Tema Halloween
+
+botaoHalloween.addEventListener('click', () => {
+
+    // corpo da pagina
+    document.body.style.backgroundColor = '#252525'
     document.body.style.backgroundImage = 'none'
     document.body.style.transition = '300ms'
 
@@ -51,8 +74,29 @@ botaoEscuro.addEventListener('click', function() {
     par3.style.color = '#000'
     par4.style.color = '#000'
 
-    card.style.backgroundColor = '#808080'
-    card.style.boxShadow = '0px 0px 30px -3px rgba(236, 236, 236, 0.23)'
+    card.style.backgroundColor = '#AF0404'
+    card.style.boxShadow = '0px 0px 30px -3px rgb(175, 4, 4)'
+})
+
+// Tema Taylor Swift 
+
+botaoTS.addEventListener('click', () => {
+
+    // corpo da pagina
+    document.body.style.backgroundColor = '#010A26'
+    document.body.style.backgroundImage = 'none'
+    document.body.style.transition = '300ms'
+
+    profileImage.src = 'imagens/midnight.png'
+    profileImage.style.transition = '300ms'
+
+    par1.style.color = '#A6243C'
+    par2.style.color = '#A6243C'
+    par3.style.color = '#A6243C'
+    par4.style.color = '#A6243C'
+
+    card.style.backgroundColor = '#D9806C'
+    card.style.boxShadow = '0px 0px 30px -3px #732937'
 })
 
 // tema jigglypuff * removido *
