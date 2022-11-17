@@ -56,30 +56,15 @@ input {
 }
 
 /* Halloween */
-
-#halloween {
+#qatar {
     background-color: #000;
     color: #FFF;
     transition: 300ms;
 }
 
-#halloween:hover {
-    background-color: #252525;
-    color: #FF0000;
-    transition: 300ms;
-}
-
-/* Taylor Swift */
-
-#TS {
-    background-color: #000;
+#qatar:hover {
+    background-color: #7F1431;
     color: #FFF;
-    transition: 300ms;
-}
-
-#TS:hover {
-    background-color: #010A26;
-    color: #D9806C;
     transition: 300ms;
 }
 
@@ -119,6 +104,8 @@ main {
 }
 
 #imagem_perfil {
+    width: 9rem;
+    height: 9rem;
     object-fit: cover;
     padding: 0.2rem;
     border-radius: 10rem;
