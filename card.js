@@ -2,7 +2,7 @@
 // Botões
 const botaoClaro = document.getElementById('claro')
 const botaoEscuro = document.getElementById('escuro')
-const botaoQatar = document.getElementById('qatar')
+const botaoNatal = document.getElementById('natal')
 const card = document.getElementById('card')
 const profileImage = document.getElementById('imagem_perfil')
 
@@ -32,6 +32,13 @@ botaoClaro.addEventListener('click', () => {
     par3.style.color = '#000'
     par4.style.color = '#000'
 
+    par5.style.color = '#000'
+    par5.style.backgroundColor = '#transparent'
+    par6.style.color = '#000'
+    par6.style.backgroundColor = '#transparent'
+    par7.style.color = '#000'
+    par7.style.backgroundColor = '#transparent'
+
     card.style.backgroundColor = 'transparent'
     card.style.boxShadow = '0px 0px 31px -6px rgba(0,0,0,0.86)'
 })
@@ -51,87 +58,39 @@ botaoEscuro.addEventListener('click', () => {
     par3.style.color = '#000'
     par4.style.color = '#000'
 
+    par5.style.color = '#000'
+    par5.style.backgroundColor = 'transparent'
+    par6.style.color = '#000'
+    par6.style.backgroundColor = 'transparent'
+    par7.style.color = '#000'
+    par7.style.backgroundColor = 'transparent'
+
     card.style.backgroundColor = '#808080'
     card.style.boxShadow = '0px 0px 30px -3px rgba(236, 236, 236, 0.23)'
 })
 
-botaoQatar.addEventListener('click', () => {
+// tema natal
+botaoNatal.addEventListener("click", () => {
     // corpo da pagina
-    document.body.style.backgroundColor = '#56042C'
+    document.body.style.backgroundColor = '#034F1B'
     document.body.style.backgroundImage = 'none'
     document.body.style.transition = '300ms'
 
     profileImage.src = 'imagens/paylin.jpg'
     profileImage.style.transition = '300ms'
 
-    par1.style.color = '#000'
-    par2.style.color = '#000'
-    par3.style.color = '#000'
-    par4.style.color = '#000'
+    par1.style.color = '#F5F5F5'
+    par2.style.color = '#F5F5F5'
+    par3.style.color = '#F5F5F5'
+    par4.style.color = '#F5F5F5'
 
-    card.style.backgroundColor = '#7F1431'
+    par5.style.color = '#f5f5f5'
+    par5.style.backgroundColor = 'transparent'
+    par6.style.color = '#f5f5f5'
+    par6.style.backgroundColor = 'transparent'
+    par7.style.color = '#f5f5f5'
+    par7.style.backgroundColor = 'transparent'
+
+    card.style.backgroundColor = '#7E121D'
     card.style.boxShadow = '0px 0px 31px -6px rgba(0,0,0,0.86)'
 })
-
-/* Tema Halloween
-botaoHalloween.addEventListener('click', () => {
-
-    // corpo da pagina
-    document.body.style.backgroundColor = '#252525'
-    document.body.style.backgroundImage = 'none'
-    document.body.style.transition = '300ms'
-
-    profileImage.src = 'imagens/jack.png'
-    profileImage.style.transition = '300ms'
-
-    par1.style.color = '#000'
-    par2.style.color = '#000'
-    par3.style.color = '#000'
-    par4.style.color = '#000'
-
-    card.style.backgroundColor = '#AF0404'
-    card.style.boxShadow = '0px 0px 30px -3px rgb(175, 4, 4)'
-}) */
-
-/* Tema Taylor Swift 
-botaoTS.addEventListener('click', () => {
-
-    // corpo da pagina
-    document.body.style.backgroundColor = '#010A26'
-    document.body.style.backgroundImage = 'none'
-    document.body.style.transition = '300ms'
-
-    profileImage.src = 'imagens/midnight.png'
-    profileImage.style.transition = '300ms'
-
-    par1.style.color = '#A6243C'
-    par2.style.color = '#A6243C'
-    par3.style.color = '#A6243C'
-    par4.style.color = '#A6243C'
-
-    card.style.backgroundColor = '#D9806C'
-    card.style.boxShadow = '0px 0px 30px -3px #732937'
-}) */
-
-/* tema jigglypuff * removido *
-    botaoJiggly.addEventListener('click', function() {
-
-    // corpo da pagina
-    document.body.style.backgroundImage = 'url(imagens/Mwlk.gif)'
-    document.body.style.backgroundSize = 'cover'
-    document.body.style.backgroundRepeat = 'no-repeat'
-    document.body.style.backgroundColor = '#FFB6C1'
-    document.body.style.transition = '300ms'
-
-    profileImage.src = 'imagens/profile.gif'
-    profileImage.style.transition = '300ms'
-
-    par1.style.color = '#000'
-    par2.style.color = '#000'
-    par3.style.color = '#000'
-    par4.style.color = '#000'
-
-    card.style.backgroundColor = 'transparent'
-    card.style.boxShadow = 'none'
-
-}) */
