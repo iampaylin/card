@@ -30,8 +30,8 @@ input {
 /* White */
 
 #claro {
-    background-color: #000;
-    color: #FFF;
+    background-color: #F5F5F5;
+    color: #000;
     transition: 300ms;
 }
 
@@ -44,7 +44,7 @@ input {
 /* Dark */
 
 #escuro {
-    background-color: #000;
+    background-color: #10111E;
     color: #FFF;
     transition: 300ms;
 }
@@ -56,14 +56,14 @@ input {
 }
 
 /* Halloween */
-#qatar {
-    background-color: #000;
+#natal {
+    background-color: #034F1B;
     color: #FFF;
     transition: 300ms;
 }
 
-#qatar:hover {
-    background-color: #7F1431;
+#natal:hover {
+    background-color: #7E121D;
     color: #FFF;
     transition: 300ms;
 }
@@ -155,12 +155,12 @@ main {
 }
 
 .botoes p {
-    width: 4rem;
-    height: 4rem;
+    width: 3.5rem;
+    height: 3.5rem;
     border-radius: 100%;
     text-align: center;
     font-size: xx-large;
-    line-height: 4rem;
+    line-height: 3.5rem;
     transition: 300ms;
 }
 
@@ -172,13 +172,6 @@ main {
     transition: 300ms;
 }
 
-.botoes p:hover {
-    background-color: #10111E;
-    color: #fff;
-    outline: none;
-    text-decoration: none;
-    transition: 300ms;
-}
 
 @media screen and (max-width: 920px) {
 
