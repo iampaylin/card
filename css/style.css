@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: radial-gradient(82.33% 91.02% at 53.3% 28.11%, #353333 0%, #353333 0.01%, #0A0909 100%);
+  font-family: "Saira", sans-serif;
+}
+
+/* card */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  height: 90vh;
+}
+main #card {
+  width: 408px;
+  height: 555px;
+  border-radius: 5px;
+  background-color: #0A0909;
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  main #card {
+    width: 334px;
+    height: 452px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main #card {
+    width: 334px;
+    height: 452px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main #card {
+    width: 310px;
+    height: 467px;
+  }
+}
+main #card .perfil img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-top: 18px;
+  border: 2px solid #F1F1ED;
+}
+@media screen and (max-width: 1200px) {
+  main #card .perfil img {
+    width: 120px;
+    height: 120px;
+    margin-top: 13px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main #card .perfil img {
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+  }
+}
+main #card h3 {
+  color: #F1F1ED;
+  font-size: 24px;
+  margin-top: 8px;
+}
+@media screen and (max-width: 1200px) {
+  main #card h3 {
+    margin-top: 6px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main #card h3 {
+    font-size: 24px;
+    margin-top: 6px;
+  }
+}
+main #card p:nth-child(1) {
+  margin-top: 22px;
+}
+@media screen and (max-width: 1200px) {
+  main #card p:nth-child(1) {
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main #card p:nth-child(1) {
+    margin-top: 18px;
+  }
+}
+main #card p {
+  text-align: left;
+  color: #F1F1ED;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-content: center;
+  margin-left: 36px;
+}
+@media screen and (max-width: 1200px) {
+  main #card p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main #card p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main #card p {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+main #card p span svg {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 1200px) {
+  main #card p span svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main #card p span svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main #card p span svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+main #card .linguagens {
+  margin-top: 26px;
+}
+@media screen and (max-width: 720px) {
+  main #card .linguagens {
+    margin-top: 24px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main #card .linguagens {
+    margin-top: 22px;
+  }
+}
+main #card .linguagens img {
+  width: 50px;
+  height: 50px;
+  margin: 0px 5px;
+}
+@media screen and (max-width: 1200px) {
+  main #card .linguagens img {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 720px) {
+  main #card .linguagens img {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main #card .linguagens img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Fim */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 10vh;
+}
+footer button {
+  width: 120px;
+  height: 40px;
+  margin: 0px 5px;
+  background-color: #0A0909;
+  color: #F1F1ED;
+  border: 1px solid #353333;
+  border-radius: 5px;
+  transition: 300ms ease;
+  font-family: "Saira", sans-serif;
+}
+footer button:hover {
+  border: 1px solid #F1F1ED;
+  box-shadow: 0px 0px 3px #F1F1ED;
+  transition: 300ms ease;
+}
+footer button a {
+  text-decoration: none;
+  color: #F1F1ED;
+  font-family: "Saira", sans-serif;
+}/*# sourceMappingURL=style.css.map */
