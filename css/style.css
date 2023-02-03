@@ -199,6 +199,7 @@ footer button {
   border-radius: 5px;
   transition: 300ms ease;
   font-family: "Saira", sans-serif;
+  cursor: pointer;
 }
 footer button:hover {
   border: 1px solid #F1F1ED;
