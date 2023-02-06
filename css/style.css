@@ -13,11 +13,11 @@ body {
 /* card */
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   max-width: 1440px;
-  height: 90vh;
+  height: 100vh;
 }
 main #card {
   width: 408px;
@@ -180,16 +180,14 @@ main #card .linguagens img {
     height: 40px;
   }
 }
-
-/* Fim */
-footer {
+main .botoes {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  height: 10vh;
+  margin-top: 10px;
 }
-footer button {
+main .botoes button {
   width: 120px;
   height: 40px;
   margin: 0px 5px;
@@ -201,12 +199,12 @@ footer button {
   font-family: "Saira", sans-serif;
   cursor: pointer;
 }
-footer button:hover {
+main .botoes button:hover {
   border: 1px solid #F1F1ED;
   box-shadow: 0px 0px 3px #F1F1ED;
   transition: 300ms ease;
 }
-footer button a {
+main .botoes button a {
   text-decoration: none;
   color: #F1F1ED;
   font-family: "Saira", sans-serif;
