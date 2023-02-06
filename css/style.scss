@@ -42,6 +42,10 @@ main {
     max-width: 1440px;
     height: 90vh;
 
+    @media screen and (max-width: 576px) {
+        height: 80vh;
+    }
+
     #card {
         width: 408px;
         height: 555px;
