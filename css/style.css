@@ -6,11 +6,10 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: radial-gradient(82.33% 91.02% at 53.3% 28.11%, #353333 0%, #353333 0.01%, #0A0909 100%);
-  font-family: "Saira", sans-serif;
+  background: radial-gradient(82.33% 91.02% at 53.3% 28.11%, #8ac7cb 0%, #a3d5d8 0.01%, #bde3e5 100%);
+  font-family: "Baloo 2", sans-serif;
 }
 
-/* card */
 main {
   display: flex;
   flex-direction: column;
@@ -18,193 +17,153 @@ main {
   align-items: center;
   height: 100vh;
 }
-main #card {
-  width: 408px;
-  height: 555px;
-  border-radius: 5px;
-  background-color: #0A0909;
+main section.card {
+  width: 45rem;
+  height: 55rem;
+  border-radius: 10px;
+  background-color: #EFFFFF;
   text-align: center;
-}
-@media screen and (max-width: 1200px) {
-  main #card {
-    width: 334px;
-    height: 452px;
-  }
-}
-@media screen and (max-width: 720px) {
-  main #card {
-    width: 334px;
-    height: 452px;
-  }
-}
-@media screen and (max-width: 576px) {
-  main #card {
-    width: 310px;
-    height: 467px;
-  }
-}
-main #card .perfil img {
-  width: 150px;
-  height: 150px;
-  border-radius: 100%;
-  margin-top: 18px;
-  border: 2px solid #F1F1ED;
-}
-@media screen and (max-width: 1200px) {
-  main #card .perfil img {
-    width: 120px;
-    height: 120px;
-    margin-top: 13px;
-  }
-}
-@media screen and (max-width: 720px) {
-  main #card .perfil img {
-    width: 120px;
-    height: 120px;
-    margin-top: 15px;
-  }
-}
-main #card h3 {
-  color: #F1F1ED;
-  font-size: 24px;
-  margin-top: 8px;
-}
-@media screen and (max-width: 1200px) {
-  main #card h3 {
-    margin-top: 6px;
-  }
-}
-@media screen and (max-width: 720px) {
-  main #card h3 {
-    font-size: 24px;
-    margin-top: 6px;
-  }
-}
-main #card p:nth-child(1) {
-  margin-top: 22px;
-}
-@media screen and (max-width: 1200px) {
-  main #card p:nth-child(1) {
-    margin-top: 16px;
-  }
-}
-@media screen and (max-width: 720px) {
-  main #card p:nth-child(1) {
-    margin-top: 18px;
-  }
-}
-main #card p {
-  text-align: left;
-  color: #F1F1ED;
-  font-size: 24px;
-  line-height: 36px;
   display: flex;
-  align-content: center;
-  margin-left: 36px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
 }
-@media screen and (max-width: 1200px) {
-  main #card p {
-    font-size: 18px;
-    line-height: 26px;
+@media screen and (max-width: 800px) {
+  main section.card {
+    width: 35rem;
   }
 }
-@media screen and (max-width: 720px) {
-  main #card p {
-    font-size: 18px;
-    line-height: 26px;
+@media screen and (max-width: 600px) {
+  main section.card {
+    width: 20rem;
+    height: 39rem;
+    padding: 1rem;
   }
 }
-@media screen and (max-width: 576px) {
-  main #card p {
-    font-size: 18px;
-    line-height: 26px;
+@media screen and (max-width: 374px) {
+  main section.card {
+    width: 18rem;
+    height: 30rem;
+    padding: 0.3rem;
   }
 }
-main #card p span svg {
-  width: 34px;
-  height: 34px;
-  margin-right: 10px;
+main section.card .profile {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 5px solid #EFFFFF;
+  margin-top: 1rem;
+  box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
 }
-@media screen and (max-width: 1200px) {
-  main #card p span svg {
-    width: 24px;
-    height: 24px;
+@media screen and (max-width: 600px) {
+  main section.card .profile {
+    width: 10rem;
+    height: 10rem;
   }
 }
-@media screen and (max-width: 720px) {
-  main #card p span svg {
-    width: 24px;
-    height: 24px;
+@media screen and (max-width: 374px) {
+  main section.card .profile {
+    width: 8rem;
+    height: 8rem;
   }
 }
-@media screen and (max-width: 576px) {
-  main #card p span svg {
-    width: 24px;
-    height: 24px;
+main section.card h2 {
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 374px) {
+  main section.card h2 {
+    font-size: 1.5rem;
   }
 }
-main #card .linguagens {
-  margin-top: 26px;
-}
-@media screen and (max-width: 720px) {
-  main #card .linguagens {
-    margin-top: 24px;
-  }
-}
-@media screen and (max-width: 576px) {
-  main #card .linguagens {
-    margin-top: 22px;
-  }
-}
-main #card .linguagens img {
-  width: 50px;
-  height: 50px;
-  margin: 0px 5px;
-}
-@media screen and (max-width: 1200px) {
-  main #card .linguagens img {
-    width: 45px;
-    height: 45px;
-  }
-}
-@media screen and (max-width: 720px) {
-  main #card .linguagens img {
-    width: 45px;
-    height: 45px;
-  }
-}
-@media screen and (max-width: 576px) {
-  main #card .linguagens img {
-    width: 40px;
-    height: 40px;
-  }
-}
-main .botoes {
+main section.card .github, main section.card .spotify, main section.card .twitter, main section.card .lastfm {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 10px;
-}
-main .botoes button {
-  width: 120px;
-  height: 40px;
-  margin: 0px 5px;
-  background-color: #0A0909;
-  color: #F1F1ED;
-  border: 1px solid #353333;
+  align-items: center;
+  width: 40rem;
+  height: 4rem;
   border-radius: 5px;
-  transition: 300ms ease;
-  font-family: "Saira", sans-serif;
-  cursor: pointer;
-}
-main .botoes button:hover {
-  border: 1px solid #F1F1ED;
-  box-shadow: 0px 0px 3px #F1F1ED;
-  transition: 300ms ease;
-}
-main .botoes button a {
+  margin: 0.3rem 0;
+  background-color: #BDE3E5;
+  color: #282828;
   text-decoration: none;
-  color: #F1F1ED;
-  font-family: "Saira", sans-serif;
+  transition: 0.5s ease-in-out;
+}
+@media screen and (max-width: 800px) {
+  main section.card .github, main section.card .spotify, main section.card .twitter, main section.card .lastfm {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  main section.card .github, main section.card .spotify, main section.card .twitter, main section.card .lastfm {
+    width: 18rem;
+  }
+}
+@media screen and (max-width: 374px) {
+  main section.card .github, main section.card .spotify, main section.card .twitter, main section.card .lastfm {
+    margin: 0.1rem 0;
+    width: 16rem;
+  }
+}
+main section.card .github:hover, main section.card .spotify:hover, main section.card .twitter:hover, main section.card .lastfm:hover {
+  background-color: #d6f1f2;
+  color: #282828;
+  box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+}
+main section.card .github img, main section.card .spotify img, main section.card .twitter img, main section.card .lastfm img {
+  margin-right: 10px;
+}
+@media screen and (max-width: 374px) {
+  main section.card .github img, main section.card .spotify img, main section.card .twitter img, main section.card .lastfm img {
+    display: none;
+  }
+}
+main section.card .playlists {
+  width: 40rem;
+  height: 12rem;
+  margin-top: 1rem;
+  background-color: #282828;
+  border-radius: 10px;
+  background-image: url(../imagens/playlists.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: xx-large;
+  transition: 0.4s ease-in-out;
+}
+@media screen and (max-width: 800px) {
+  main section.card .playlists {
+    width: 30rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  main section.card .playlists {
+    width: 18rem;
+    height: 8rem;
+    background-image: url(../imagens/sabrina-carpenter-espresso.gif);
+    color: rgba(40, 40, 40, 0.5882352941);
+  }
+}
+@media screen and (max-width: 374px) {
+  main section.card .playlists {
+    width: 16rem;
+    height: 6rem;
+    margin-top: 0.2rem;
+  }
+}
+main section.card .playlists:hover {
+  background-image: url(../imagens/sabrina-carpenter-espresso.gif);
+  color: rgba(40, 40, 40, 0.5882352941);
 }/*# sourceMappingURL=style.css.map */
