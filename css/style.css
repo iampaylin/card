@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: radial-gradient(82.33% 91.02% at 53.3% 28.11%, #8ac7cb 0%, #a3d5d8 0.01%, #bde3e5 100%);
+  background: radial-gradient(circle, rgb(19, 16, 115) 0%, rgb(16, 23, 64) 50%);
   font-family: "Baloo 2", sans-serif;
 }
 
@@ -21,8 +21,9 @@ main section.card {
   width: 45rem;
   height: 55rem;
   border-radius: 10px;
-  background-color: #EFFFFF;
+  background-color: #D9C484;
   text-align: center;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -89,10 +90,13 @@ main section.card .github, main section.card .spotify, main section.card .twitte
   height: 4rem;
   border-radius: 5px;
   margin: 0.3rem 0;
-  background-color: #BDE3E5;
-  color: #282828;
+  background-color: #101740;
+  color: #f5f5f5;
   text-decoration: none;
-  transition: 0.5s ease-in-out;
+  transition: 0.5s ease;
+  box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
 }
 @media screen and (max-width: 800px) {
   main section.card .github, main section.card .spotify, main section.card .twitter, main section.card .lastfm {
@@ -111,11 +115,11 @@ main section.card .github, main section.card .spotify, main section.card .twitte
   }
 }
 main section.card .github:hover, main section.card .spotify:hover, main section.card .twitter:hover, main section.card .lastfm:hover {
-  background-color: #d6f1f2;
+  background-color: #807EBF;
   color: #282828;
-  box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
-  -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
-  -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  box-shadow: 0px 0px 0px 0px transparent;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+  -moz-box-shadow: 0px 0px 0px 0px transparent;
 }
 main section.card .github img, main section.card .spotify img, main section.card .twitter img, main section.card .lastfm img {
   margin-right: 10px;
