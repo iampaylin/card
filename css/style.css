@@ -6,8 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background: rgb(7, 22, 68);
-  background: radial-gradient(circle, rgb(7, 22, 68) 0%, rgb(5, 42, 89) 100%);
+  background-color: #F5F5F5;
   font-family: "Baloo 2", sans-serif;
 }
 
@@ -19,10 +18,10 @@ main {
   height: 100vh;
 }
 main section.card {
-  width: 45rem;
+  width: 40rem;
   height: 55rem;
   border-radius: 10px;
-  background-color: #d3ecfc;
+  background-color: #E6E6E6;
   text-align: center;
   position: relative;
   display: flex;
@@ -32,6 +31,18 @@ main section.card {
   box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
   -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
   -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+}
+@media screen and (max-width: 1400px) {
+  main section.card {
+    width: 35rem;
+    height: 45rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  main section.card {
+    width: 25rem;
+    height: 35rem;
+  }
 }
 @media screen and (max-width: 800px) {
   main section.card {
@@ -56,11 +67,23 @@ main section.card .profile {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
-  border: 5px solid #efffff;
+  border: 5px solid #000000;
   margin-top: 1rem;
   box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
   -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
   -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+}
+@media screen and (max-width: 1400px) {
+  main section.card .profile {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  main section.card .profile {
+    width: 8rem;
+    height: 8rem;
+  }
 }
 @media screen and (max-width: 600px) {
   main section.card .profile {
@@ -76,7 +99,12 @@ main section.card .profile {
 }
 main section.card h2 {
   font-size: 2.5rem;
-  color: #383838;
+  color: #161616;
+}
+@media screen and (max-width: 1100px) {
+  main section.card h2 {
+    font-size: 2rem;
+  }
 }
 @media screen and (max-width: 374px) {
   main section.card h2 {
@@ -91,11 +119,11 @@ main section.card .lastfm {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 40rem;
+  width: 30rem;
   height: 4rem;
   border-radius: 5px;
   margin: 0.3rem 0;
-  background-color: #03121d;
+  background-color: #000;
   color: #f5f5f5;
   text-decoration: none;
   transition: 0.5s ease;
@@ -109,6 +137,15 @@ main section.card .lastfm {
   main section.card .twitter,
   main section.card .lastfm {
     width: 30rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  main section.card .github,
+  main section.card .spotify,
+  main section.card .twitter,
+  main section.card .lastfm {
+    width: 20rem;
+    height: 3rem;
   }
 }
 @media screen and (max-width: 600px) {
@@ -132,7 +169,7 @@ main section.card .github:hover,
 main section.card .spotify:hover,
 main section.card .twitter:hover,
 main section.card .lastfm:hover {
-  background-color: #5b7b96;
+  background-color: #ffffff;
   color: #161616;
   box-shadow: 0px 0px 0px 0px transparent;
   -webkit-box-shadow: 0px 0px 0px 0px transparent;
@@ -152,8 +189,18 @@ main section.card .lastfm img {
     display: none;
   }
 }
+main section.card .github img,
+main section.card .spotify img,
+main section.card .lastfm img {
+  width: 33px;
+  height: 33px;
+}
+main section.card .twitter img {
+  width: 33px;
+  height: 30px;
+}
 main section.card .playlists {
-  width: 40rem;
+  width: 30rem;
   height: 12rem;
   margin-top: 1rem;
   background-color: #282828;
@@ -169,6 +216,18 @@ main section.card .playlists {
   color: #f5f5f5;
   font-size: xx-large;
   transition: 0.4s ease-in-out;
+}
+@media screen and (max-width: 1400px) {
+  main section.card .playlists {
+    width: 30rem;
+    height: 9rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  main section.card .playlists {
+    width: 20rem;
+    height: 6rem;
+  }
 }
 @media screen and (max-width: 800px) {
   main section.card .playlists {
