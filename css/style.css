@@ -6,7 +6,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #F5F5F5;
+  background-color: #353941;
   font-family: "Baloo 2", sans-serif;
 }
 
@@ -21,7 +21,7 @@ main section.card {
   width: 40rem;
   height: 55rem;
   border-radius: 10px;
-  background-color: #E6E6E6;
+  background-color: #26282B;
   text-align: center;
   position: relative;
   display: flex;
@@ -64,10 +64,10 @@ main section.card {
   }
 }
 main section.card .profile {
-  width: 15rem;
-  height: 15rem;
+  width: 13rem;
+  height: 13rem;
   border-radius: 50%;
-  border: 5px solid #000000;
+  border: 5px solid #fff;
   margin-top: 1rem;
   box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
   -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
@@ -99,7 +99,7 @@ main section.card .profile {
 }
 main section.card h2 {
   font-size: 2.5rem;
-  color: #161616;
+  color: #d3d3d3;
 }
 @media screen and (max-width: 1100px) {
   main section.card h2 {
@@ -116,20 +116,19 @@ main section.card .spotify,
 main section.card .twitter,
 main section.card .lastfm {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
+  gap: 15px;
   width: 30rem;
   height: 4rem;
   border-radius: 5px;
-  margin: 0.3rem 0;
-  background-color: #000;
-  color: #f5f5f5;
+  margin: 0.3rem 0rem;
+  background-color: #5F85DB;
+  color: #F5F5F5;
   text-decoration: none;
   transition: 0.5s ease;
-  box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
-  -webkit-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
-  -moz-box-shadow: 2px 2px 6px 0px rgba(77, 77, 77, 0.5);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.5);
 }
 @media screen and (max-width: 800px) {
   main section.card .github,
@@ -169,7 +168,7 @@ main section.card .github:hover,
 main section.card .spotify:hover,
 main section.card .twitter:hover,
 main section.card .lastfm:hover {
-  background-color: #ffffff;
+  background-color: #90B8F8;
   color: #161616;
   box-shadow: 0px 0px 0px 0px transparent;
   -webkit-box-shadow: 0px 0px 0px 0px transparent;
@@ -179,7 +178,7 @@ main section.card .github img,
 main section.card .spotify img,
 main section.card .twitter img,
 main section.card .lastfm img {
-  margin-right: 10px;
+  margin-right: 0px;
 }
 @media screen and (max-width: 374px) {
   main section.card .github img,
@@ -189,15 +188,27 @@ main section.card .lastfm img {
     display: none;
   }
 }
-main section.card .github img,
+main section.card .github h3,
+main section.card .spotify h3,
+main section.card .twitter h3,
+main section.card .lastfm h3 {
+  flex-grow: 0.8;
+}
+main section.card .github img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
 main section.card .spotify img,
 main section.card .lastfm img {
-  width: 33px;
-  height: 33px;
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
 }
 main section.card .twitter img {
-  width: 33px;
+  width: 35px;
   height: 30px;
+  margin-left: 10px;
 }
 main section.card .playlists {
   width: 30rem;
@@ -205,7 +216,7 @@ main section.card .playlists {
   margin-top: 1rem;
   background-color: #282828;
   border-radius: 10px;
-  background-image: url(../imagens/fastimespause.png);
+  background-image: url(../imagens/playlistsCover.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -215,6 +226,7 @@ main section.card .playlists {
   text-decoration: none;
   color: #f5f5f5;
   font-size: xx-large;
+  border: 2px solid transparent;
   transition: 0.4s ease-in-out;
 }
 @media screen and (max-width: 1400px) {
@@ -238,7 +250,7 @@ main section.card .playlists {
   main section.card .playlists {
     width: 18rem;
     height: 8rem;
-    background-image: url(../imagens/fastimes.gif);
+    background-image: url(../imagens/playlistsGif.gif);
     color: rgba(73, 73, 73, 0.7176470588);
   }
 }
@@ -250,6 +262,10 @@ main section.card .playlists {
   }
 }
 main section.card .playlists:hover {
-  background-image: url(../imagens/fastimes.gif);
-  color: rgba(40, 40, 40, 0.5882352941);
+  background-image: url(../imagens/playlistsGif.gif);
+  color: rgba(243, 243, 243, 0.5882352941);
+  box-shadow: 0px 0px 0px 0px transparent;
+  -webkit-box-shadow: 0px 0px 0px 0px transparent;
+  -moz-box-shadow: 0px 0px 0px 0px transparent;
+  border: 2px solid #f5f5f5;
 }/*# sourceMappingURL=style.css.map */
